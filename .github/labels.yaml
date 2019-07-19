@@ -5,45 +5,55 @@
 # Priority 3 Best effort: those are nice to have / minor issues.
 
 ---
-repo: organization/repo
+repo: owner/name
 labels:
-- name: 🐛 Bug
-  color: e11d21
-- name: 🔄 Duplicate
-  color: D2DAE1
-- name: ✖️ Wontfix
-  color: D2DAE1
-- name: 🤔️ Question
-  color: cc317c
-- name: ❗️ Needs Attention
-  color: fbca04
-- name: "\U0001F3D7 Needs-review"
-  color: fbca04
-- name: "\U0001F3F7 Feature Request"
-  color: 5EBEFF
-- name: "\U0001F4AD Under Consideration"
-  color: cc317c
-- name: "\U0001F4D2 Documentation"
-  color: fbca04
-- name: "\U0001F504 Wait for response"
-  color: cc317c
-- name: "\U0001F527 Should Fix Soon"
-  color: eb6420
-- name: "\U0001F5D1 Invalid"
-  color: D2DAE1
-- name: "\U0001F64B Help Wanted"
-  color: 008672
-- name: "\U0001F6A5 Test"
-  color: 006b75
-- name: 🚨 Priority/P0
-  color: e11d21
 - name: ⚠️ Priority/P1
   color: eb6420
-- name: 🔧 Priority/P2
-  color: fad8c7
-- name: 💤 Priority/P3
-  color: c2e0c6
-- name: ✅ Confirmed
+- name: ✅ Status/Confirmed
   color: C7DEF8
-- name: 🏗 In progress
+- name: ✖️ Type/Wontfix
+  color: D2DAE1
+- name: ❗️ Status/Needs-Attention
   color: fbca04
+- name: "\U0001F3D7 Status/In-progress"
+  color: fbca04
+- name: "\U0001F3D7 Status/Needs-review"
+  color: fbca04
+- name: "\U0001F3F7 Type/Feature-Request"
+  color: 5EBEFF
+- name: "\U0001F3F7 Type/Release"
+  color: 315ebf
+- name: "\U0001F402 \U0001F37A Type/Epic"
+  color: a2b6f2
+- name: "\U0001F41B Type/Bug"
+  color: e11d21
+- name: "\U0001F4A4 Priority/P3"
+  color: D2DAE1
+- name: "\U0001F4AD Status/Under-Consideration"
+  color: cc317c
+- name: "\U0001F4D2 Type/Documentation"
+  color: fbca04
+- name: "\U0001F504 Type/Duplicate"
+  color: D2DAE1
+- name: "\U0001F504 Status/Wait-for-response"
+  color: cc317c
+- name: "\U0001F527 Priority/P2"
+  color: fbca04
+- name: "\U0001F527 Type/Should-Fix-Soon"
+  color: eb6420
+- name: "\U0001F5D1 Type/Invalid"
+  color: D2DAE1
+- name: "\U0001F64B Type/Help-Wanted"
+  color: "008672"
+- name: "\U0001F6A5 Type/Test"
+  color: 006b75
+- name: "\U0001F6A8 Priority/P0"
+  color: e11d21
+- name: "\U0001F6AB Status/Don't-Merge"
+  color: d93f0b
+- name: "\U0001F914️ Type/Question"
+  color: cc317c
+- name: ✅ Status/Fixed
+  color: C7DEF8
+- name: ✅ Status/Implemented
+  color: C7DEF8
