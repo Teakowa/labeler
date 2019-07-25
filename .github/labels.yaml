@@ -40,7 +40,7 @@ labels:
 - name: "\U0001F527 Priority/P2"
   color: fbca04
 - name: "\U0001F527 Type/Should-Fix-Soon"
-  color: eb6420
+  color: b60205
 - name: "\U0001F5D1 Type/Invalid"
   color: D2DAE1
 - name: "\U0001F64B Type/Help-Wanted"
@@ -57,3 +57,7 @@ labels:
   color: C7DEF8
 - name: ✅ Status/Implemented
   color: C7DEF8
+- name: 📜 Type/Stale
+  color: D2DAE1
+- name: 📦 Type/Dependencies
+  color: 0366d6
