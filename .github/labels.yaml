@@ -61,3 +61,5 @@ labels:
   color: D2DAE1
 - name: 📦 Type/Dependencies
   color: 0366d6
+- name: 🍻 Status/Ready-to-merge
+  color: fbca04
